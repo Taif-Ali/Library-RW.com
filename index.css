@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Josefin+Sans:wght@600&display=swap');
+* {
+text-decoration: none;
+color:black;
+font-family: 'Barlow', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+text-transform: capitalize;
+}
+body {
+    margin: 0;
+}
+.navbar_header {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav_item{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.nav_item li {
+list-style: none;
+display: inline-block;
+margin-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+transition: background-color 0.7s, border 0.5s;
+}
+.nav_item li:hover{
+    background-color:#f5dade6d;
+    border: solid 1.5px rgb(197, 42, 42);;
+    border-radius: 12px;
+}
+.logo img{
+    padding: 10px;
+    width: 150px;
+}
+.body_container {
+    border: solid 1.5px rgb(255, 255, 255);
+    border-radius: 20px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color:#f5dade6d;
+    padding: 15px;
+}
+.body_title {
+    border: solid 1px #ef2345;
+    border-radius: 30px;
+    background-color: #ef2345;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: width 0.7s, box-shadow 1s;
+}
+.body_title:hover {
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.body_title p {
+    text-align: center; 
+    font-size: 30px;
+    margin: 15px;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    border: solid;
+    border-color: rgb(197, 42, 42);
+    height: 400px;
+    transition: max-width 0.5s, height 0.5s, box-shadow 1s;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .card p {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-size: larger;
+  }
+  .card:hover{
+    max-width: 280px;
+    height: 420px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  }
+  .cardContainter1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .img_card {
+    overflow: hidden;
+    margin: auto;
+  }
+  .img_card img {
+    padding-top: 15px;
+  }
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.footer_list_title {
+    list-style: none;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    color:rgb(197, 42, 42);
+}
+.section img {
+    width: 25px;
+}
+.section li{
+    list-style:none;
+    padding: 5px;
+}
+
